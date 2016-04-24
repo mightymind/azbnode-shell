@@ -1,0 +1,32 @@
+{
+  "name": "azbnode-shell",
+  "version": "1.0.0",
+  "description": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mightymind/azbnode-shell.git"
+  },
+  "author": "= <alexander.zybin@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mightymind/azbnode-shell/issues"
+  },
+  "homepage": "https://github.com/mightymind/azbnode-shell#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cheerio": "^0.20.0",
+    "connect-mongo": "^1.1.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "mongoose": "^4.4.13",
+    "mysql": "^2.10.2",
+    "node-telegram-bot-api": "^0.21.1",
+    "request": "^2.72.0",
+    "winston": "^2.2.0"
+  }
+}
