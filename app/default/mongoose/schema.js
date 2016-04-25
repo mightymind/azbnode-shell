@@ -22,6 +22,7 @@ function _(azbn, mongoose) {
 		},
 		uid : {
 			type : String,
+			//unique: true,
 			default : Date.now() + '_' + Math.random().toString(36).split('.')[1],
 		},
 		parent_uid : {
